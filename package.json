@@ -1,0 +1,23 @@
+{
+  "name": "cs-webdev-lvl1",
+  "version": "1.0.0",
+  "description": "Nexgen Codecamp Web Development course Level 1",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexgencodecamp/cs-webdev-lvl1.git"
+  },
+  "author": "nexgencodecamp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexgencodecamp/cs-webdev-lvl1/issues"
+  },
+  "homepage": "https://github.com/nexgencodecamp/cs-webdev-lvl1#readme"
+}
