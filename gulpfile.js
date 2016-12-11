@@ -1,8 +1,11 @@
 var gulp = require('gulp');
-var connect = require('gulp-connect');
+var server = require('gulp-server-livereload');
 
-gulp.task('webserver', function(){
-  connect.server();
+gulp.task('webserver', function() {
+  gulp.src('.')
+    .pipe(server({
+      livereload: true,
+      directoryListing: true,
+      open: true
+    }));
 });
-
-gulp.task('default', ['webserver']);
