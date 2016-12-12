@@ -12,6 +12,7 @@ From the cs-webdev-lvl directory run:
 
 ## Start Gulp Webserver
 From the cs-webdev-lbl directory run:
-  'gulp'
+  'gulp webserver'
 
-This will start a local webserver at `localhost:9000`
+This will start a local webserver at `localhost:9000` and will load the index.html page
+in the root folder of the project.

@@ -1,36 +1,27 @@
-body {
-  background:  url(../img/javascript-logo.png) #FFCC00 top right no-repeat;
-  color: rgba(0,0,0,1);
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  font-size: 62.5%;
+html { font-size: 62.5%; }  /* =10px */
+body { font-size: 1.4rem; } /* =14px */
+h1   { font-size: 2.4rem; color: #fb6734; } /* =24px */
+h2   { font-size: 2.0rem; color: #fb6734;} /* =20px */
+h3   { font-size: 1.6rem; color: #fb6734;} /* =16px */
+
+ul {
+  list-style-type:none;
 }
 
-h1 {
-  color: #CA661A;
-  font-family: 'Bangers', cursive;
-  font-size: 10em;
-  margin: 0 0 .1em 0;
-  line-height: 1;
+header img {
+  width:100%;
+  max-height: 200px;
 }
 
-h2 {
-  font-size: 4em;
-  color: #CA661A;
-  margin: 0em;
+footer {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background: blue;
+  color: #ffffff;
 }
 
-a {
-  font-size: 2.5em;
-  font-family: arial;
-}
-
-li {
-  padding: 3px 0;
-}
-
-section.one {
-  height: 800px;
+.container {
   padding: 20px;
 }
-
